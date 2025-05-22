@@ -1,0 +1,46 @@
+# Project Setup Commands
+npm create vite@latest ./          # Create new Vite project in current directory
+npm install                        # Install dependencies
+npm run dev                        # Start development server
+npm run build                      # Build for production
+npm run preview                    # Preview production build locally
+
+# Node.js Version Management
+nvm install --lts                  # Install latest LTS version of Node.js
+nvm use --lts                      # Use latest LTS version
+node --version                     # Check Node.js version
+npm --version                      # Check npm version
+
+# Git Commands
+git init                           # Initialize git repository
+git add .                          # Add all files to staging
+git commit -m "message"            # Commit changes
+git push                           # Push changes to remote repository
+
+# Package Management
+npm install package-name           # Install a package
+npm uninstall package-name         # Remove a package
+npm update                         # Update all packages
+
+# Development Tools
+npm run lint                       # Run linter
+npm run test                       # Run tests
+npm run format                     # Format code
+
+# Deployment
+npm run build                      # Build for production
+npm run preview                    # Preview production build 
+
+#Amplify Commands
+npm create amplify@latest          # Create new Amplify project
+amplify pull --appId appId --envName envName   # Pull existing Amplify project
+amplify push                       # Push changes to Amplify
+amplify publish                    # Publish changes to Amplify
+amplify status                     # Check status of Amplify project
+amplify console                    # Open Amplify console
+
+#AWS CLI Commands
+aws configure                      # Configure AWS CLI
+aws s3 ls                         # List S3 buckets
+aws s3 cp s3://bucket-name/file.txt local-file.txt # Download file from S3
+aws s3 cp local-file.txt s3://bucket-name/file.txt # Upload file to S3
