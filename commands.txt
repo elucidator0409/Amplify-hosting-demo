@@ -47,3 +47,6 @@ aws s3 cp local-file.txt s3://bucket-name/file.txt # Upload file to S3
 
 #sandbox Amplify
 npx ampx sandbox 
+
+
+
