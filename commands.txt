@@ -44,3 +44,6 @@ aws configure                      # Configure AWS CLI
 aws s3 ls                         # List S3 buckets
 aws s3 cp s3://bucket-name/file.txt local-file.txt # Download file from S3
 aws s3 cp local-file.txt s3://bucket-name/file.txt # Upload file to S3
+
+#sandbox Amplify
+npx ampx sandbox 
